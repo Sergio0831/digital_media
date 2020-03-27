@@ -505,9 +505,9 @@ textarea:focus {
   left: 6%;
   color: #ffbb42;
 }
-.modal form input[type="text"],
 .modal form [type="email"],
-.modal form [type="message"] {
+.modal form [type="message"],
+.modal form [type="text"] {
   padding-left: 3rem;
   font-family: "Open Sans", sans-serif;
   font-size: 1.3rem;
@@ -573,6 +573,9 @@ textarea:focus {
 @media (max-width: 1199px) {
   .banner-text {
     font-size: 3rem;
+  }
+  .clients {
+    min-height: 65rem;
   }
   .about-text h2 {
     padding-top: 7rem;
@@ -701,6 +704,7 @@ textarea:focus {
     left: -46%;
   }
   .contact .map .address {
-    width: 65%;
+    width: 70%;
+    padding: 4rem 0;
   }
 }
