@@ -145,8 +145,8 @@
     <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <div class="media">
-              <picture class="mr-5">
+            <div class="media wow fadeInLeft" data-wow-delay="0.1s">
+              <picture>
                 <source srcset="img/services/clock.svg" type="image/" />
                 <img src="img/services/clock.png" alt="" />
               </picture>
@@ -162,8 +162,8 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="media">
-              <picture class="mr-5">
+            <div class="media wow fadeInRight" data-wow-delay="0.1s">
+              <picture>
                 <source srcset="img/services/gear.svg" type="image/" />
                 <img src="img/services/gear.png" alt="" />
               </picture>
@@ -179,8 +179,8 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="media">
-              <picture class="mr-3">
+            <div class="media wow fadeInLeft" data-wow-delay="0.2s">
+              <picture>
                 <source srcset="img/services/hat.svg" type="image/" />
                 <img src="img/services/hat.png" alt="" />
               </picture>
@@ -196,8 +196,8 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="media">
-              <picture class="mr-5">
+            <div class="media wow fadeInRight" data-wow-delay="0.2s">
+              <picture>
                 <source srcset="img/services/rocket.svg" type="image/" />
                 <img src="img/services/rocket.png" alt="" />
               </picture>
@@ -213,8 +213,8 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="media">
-              <picture class="mr-5">
+            <div class="media wow fadeInLeft" data-wow-delay="0.3s">
+              <picture>
                 <source srcset="img/services/peace.svg" type="image/" />
                 <img src="img/services/peace.png" alt="" />
               </picture>
@@ -230,8 +230,8 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="media">
-              <picture class="mr">
+            <div class="media wow fadeInRight" data-wow-delay="0.3s">
+              <picture>
                 <source srcset="img/services/dollar.svg" type="image/" />
                 <img src="img/services/dollar.png" alt="" />
               </picture>
@@ -267,7 +267,7 @@
         </div>
       </div>
     </section>
-    <!-- How it Works Section -->
+    <!-- Section Price -->
     <section id="price" class="price">
       <div class="container">
           <div class="price-header text-center">
@@ -312,7 +312,7 @@
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Gold Plan</h5>
-                    <p class="card-text"> <span><sup>&euro;</sup>22</span> <br>Per Month</p>
+                    <p class="card-text"> <span><sup>&euro;</sup>62</span> <br>Per Month</p>
                     </div>
                   <ul class="list-group">
                     <li class="list-group-item">8 accounts</li>
@@ -328,8 +328,7 @@
             </div>
         </div>
       </section>  
-
-      <!-- How It Works --> 
+    <!-- How It Works --> 
       <section id="how" class="how text-center">
         <div class="container">
           <div class="how-header text-center">
@@ -339,7 +338,7 @@
             </p>
           </div>
           <div class="how-slider">
-            <div class="how-block text-center">
+            <div class="how-block text-center wow fadeInUp" data-wow-delay="0.1s">
               <div class="how-img">
                 <picture>
                   <source srcset="img/How_It_Works/step1.svg" type="image/" />
@@ -351,7 +350,7 @@
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
               </p>
             </div>
-            <div class="how-block text-center">
+            <div class="how-block text-center wow fadeInUp" data-wow-delay="0.2s">
               <div class="how-img">
                 <picture>
                   <source srcset="img/How_It_Works/step2.svg" type="image/" />
@@ -363,7 +362,7 @@
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
               </p>
             </div>
-            <div class="how-block text-center">
+            <div class="how-block text-center wow fadeInUp" data-wow-delay="0.3s">
               <div class="how-img">
                 <picture>
                   <source srcset="img/How_It_Works/step3.svg" type="image/" />
@@ -375,7 +374,7 @@
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
               </p>
             </div>
-            <div class="how-block text-center">
+            <div class="how-block text-center wow fadeInUp" data-wow-delay="0.4s">
               <div class="how-img">
                 <picture>
                   <source srcset="img/How_It_Works/step4.svg" type="image/">
@@ -568,6 +567,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="slick/slick.css" />
     <link rel="stylesheet" href="slick/slick-theme.css.css" />
+    <link rel="stylesheet" href="css/animate.css">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -585,8 +585,8 @@
     <script src="slick/slick.min.js"></script>
     <script src="js/smooth-scroll.polyfills.min.js"></script>
     <script src="js/parallax.min.js"></script>
-    
-    
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
     <!-- Services Slider -->
     <script>
       $(document).ready(function() {

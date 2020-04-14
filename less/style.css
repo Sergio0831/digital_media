@@ -132,10 +132,6 @@ textarea:focus {
 }
 .services .media {
   margin-top: 8rem;
-  margin-right: 5rem;
-}
-.services .media .mr {
-  margin-right: 5rem;
 }
 .services .media-body h5 {
   margin-bottom: 1rem;
@@ -150,6 +146,9 @@ textarea:focus {
   color: #7b7b7b;
   font-family: "Open Sans", sans-serif;
   font-size: 1.3rem;
+}
+.services picture {
+  width: 7rem;
 }
 .about {
   margin-top: 10rem;
@@ -583,6 +582,15 @@ textarea:focus {
   }
   .contact .map .address {
     width: 25%;
+  }
+}
+@media (min-width: 991px) {
+  .price .card {
+    transition: ease-in-out 0.2s;
+  }
+  .price .card:hover {
+    transform: translateY(-2rem);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
 }
 @media (max-width: 991px) {

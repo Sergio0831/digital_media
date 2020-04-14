@@ -175,28 +175,28 @@ textarea:focus {
   }
   .media {
     margin-top: 8rem;
-    margin-right: 5rem;
-    .mr {
-      margin-right: 5rem;
+  }
+  .media-body {
+    h5 {
+      margin-bottom: 1rem;
+      color: @text-color;
+      .reg();
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 22px;
+      text-transform: uppercase;
     }
-    &-body {
-      h5 {
-        margin-bottom: 1rem;
-        color: @text-color;
-        .reg();
-        font-size: 1.6rem;
-        font-weight: 700;
-        line-height: 22px;
-        text-transform: uppercase;
-      }
-      p {
-        color: #7b7b7b;
-        .small();
-        font-size: 1.3rem;
-      }
+    p {
+      color: #7b7b7b;
+      .small();
+      font-size: 1.3rem;
     }
   }
+  picture {
+    width: 7rem;
+  }
 }
+
 // About
 .about {
   margin-top: 10rem;
@@ -672,6 +672,18 @@ textarea:focus {
   }
   .contact .map .address {
     width: 25%;
+  }
+}
+
+@media (min-width: 991px) {
+  .price {
+    .card {
+      transition: ease-in-out 0.2s;
+      &:hover {
+        transform: translateY(-2rem);
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+      }
+    }
   }
 }
 
