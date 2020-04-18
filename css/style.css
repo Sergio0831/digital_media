@@ -24,7 +24,6 @@ body {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   border: none;
-  -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 .button:hover {
@@ -301,8 +300,7 @@ textarea:focus {
 }
 .arrow {
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   position: absolute;
   z-index: 99;
   width: 2rem;
@@ -588,14 +586,11 @@ textarea:focus {
 }
 @media (min-width: 991px) {
   .price .card {
-    -webkit-transition: ease-in-out 0.2s;
     transition: ease-in-out 0.2s;
   }
   .price .card:hover {
-    -webkit-transform: translateY(-2rem);
-            transform: translateY(-2rem);
-    -webkit-box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-2rem);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
 }
 @media (max-width: 991px) {
@@ -609,10 +604,7 @@ textarea:focus {
     margin-bottom: 2rem;
   }
   .contact .newsletter .form {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .contact .newsletter .form .fa {
     left: -24.5%;
@@ -648,10 +640,7 @@ textarea:focus {
     margin-top: 8rem;
   }
   .contact .newsletter .form {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .contact .newsletter .form .fa {
     left: -34%;
