@@ -1,7 +1,10 @@
 @font-face {
   font-family: "Gotham-Black";
   src: url("../fonts/Gotham-Black.eot");
-  src: url("../fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Black.woff") format("woff"), url("../fonts/Gotham-Black.ttf") format("truetype"), url("../fonts/Gotham-Black.svg#Gotham-Black") format("svg");
+  src: url("../fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gotham-Black.woff") format("woff"),
+    url("../fonts/Gotham-Black.ttf") format("truetype"),
+    url("../fonts/Gotham-Black.svg#Gotham-Black") format("svg");
   font-weight: 900;
   font-style: normal;
 }
@@ -380,7 +383,7 @@ textarea:focus {
 .clients .carousel-inner h5 {
   color: #394b50;
   font-family: "Lato", sans-serif;
-  font-size: 1, 2rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 .clients .carousel-inner h5 span {
